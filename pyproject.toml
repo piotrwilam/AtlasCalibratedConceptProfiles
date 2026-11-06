@@ -1,0 +1,32 @@
+[project]
+name = "profilebattery"
+version = "0.1.0"
+description = "The profile method: per-construct neuron profiles over OpenCoder checkpoints"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.5",
+    "transformers>=4.44",
+    "sentencepiece>=0.2",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "datasets>=3.0",
+    "pyarrow>=17.0",
+    "black>=24.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+# paper 1's item B2 asks for every figure as data AND as a plot, so the plotting library is a
+# declared dependency of the figure code rather than something installed into one venv by hand:
+# a figure nobody else can regenerate is not a reproducible figure.
+figures = ["matplotlib>=3.9"]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["profilebattery*"]
+
+[tool.ruff]
+line-length = 100

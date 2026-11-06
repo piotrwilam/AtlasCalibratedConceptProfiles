@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, cite the paper it belongs to."
+title: "AtlasCalibratedConceptProfiles: the calibrated concept profile"
+abstract: >-
+  The generator, the recorder, the licence suite and the analysis scripts behind
+  "Calibrated Concept Profiles: Making the Reading of a Model's Neurons a
+  Measurement". Reads the dataset AtlasOpenCoder.
+type: software
+license: Apache-2.0
+authors:
+  - family-names: Wilam
+    given-names: Piotr
+    affiliation: University College London
+    email: piotrwilam@gmail.com
+version: "1.0"
+date-released: "2026-11-06"
+repository-code: "https://github.com/piotrwilam/AtlasCalibratedConceptProfiles"
+keywords:
+  - interpretability
+  - mechanistic interpretability
+  - language models
+  - measurement
+preferred-citation:
+  type: article
+  title: "Calibrated Concept Profiles: Making the Reading of a Model's Neurons a Measurement"
+  authors:
+    - family-names: Wilam
+      given-names: Piotr
+      affiliation: University College London
+  year: 2026
