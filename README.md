@@ -8,11 +8,10 @@ it cannot separate two checkpoints.
 ## The papers
 
 This repository is the tool and the scripts of **"Calibrated Concept Profiles: Making the
-Reading of a Model's Neurons a Measurement"** (Wilam, 2026; arXiv:[id]).
+Reading of a Model's Neurons a Measurement"** (Wilam, 2026).
 
 A second paper reads the same dataset with this instrument — **"Representational Drift in a
-Code Model: Behaviour Settles, Which Neurons Carry It Does Not"** (Wilam, 2026;
-arXiv:[id]) — and its own scripts are in `AtlasRepresentationalDrift`, which depends on this
+Code Model: Behaviour Settles, Which Neurons Carry It Does Not"** (Wilam, 2026) — and its own scripts are in `AtlasRepresentationalDrift`, which depends on this
 repository and not the other way round.
 
 ## The dataset this reads
