@@ -5,8 +5,15 @@ measurement rather than a number. It states the population of stimuli it reads o
 every number a unit, carries a licence of nine checks, and declares the resolution below which
 it cannot separate two checkpoints.
 
-This repository is the tool and the scripts of **paper 1**. Paper 2's own scripts are in
-`AtlasRepresentationalDrift`, which depends on this and not the other way round.
+## The papers
+
+This repository is the tool and the scripts of **"Calibrated Concept Profiles: Making the
+Reading of a Model's Neurons a Measurement"** (Wilam, 2026; arXiv:[id]).
+
+A second paper reads the same dataset with this instrument — **"Representational Drift in a
+Code Model: Behaviour Settles, Which Neurons Carry It Does Not"** (Wilam, 2026;
+arXiv:[id]) — and its own scripts are in `AtlasRepresentationalDrift`, which depends on this
+repository and not the other way round.
 
 ## The dataset this reads
 
@@ -42,7 +49,7 @@ through `profilebattery.paths.data_root()`; nothing hardcodes a path.
 
 ## The scripts
 
-50 scripts in `experiments/`. `atlas.py` carries paper 1's computations as subcommands
+50 scripts in `experiments/`. `atlas.py` carries the method paper's computations as subcommands
 `b1`–`b8b`; the rest are one script per artefact. Added since the first draft of this README:
 `record_size.py` (the record's size, by reference and by kind of file), `backfill_paper1.py`
 (`SET_GRIDS.json`), `check4_twin_units.py`, `band_held.py`, `b9b10_trial.py`,
@@ -73,4 +80,4 @@ padding snippets are third-party and keep their original licences: see
 
 ## Papers
 
-Paper 1 is the method; paper 2 is the finding, and reads the same record.
+The first paper is the method; the second is the finding, and reads the same record. Both are named in full above.
